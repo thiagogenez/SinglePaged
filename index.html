@@ -1,52 +1,609 @@
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
-{% include head.html %}
+<html>
+<head>
+<title>Jalil a Corporate Category Flat Bootstarp responsive Website Template| Home :: w3layouts</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Jalil Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"> </script>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+ 	<!---- start-smoth-scrolling---->
+
+</head>
 <body>
-  <div id="main">
+<!--body-->
 
-  {% include nav.html %}
+<a href="https://your-url" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+<div id="home" class="banner">
+	 <div class="container">
+		 <div class="top-header">		  
+				<!--<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="" /></a>
+				</div>!-->
+			  <div class="top-menu">
+					<span class="menu"> </span>
+				  <ul>
+				      <nav class="cl-effect-5 ">
+							<li><a class="active scroll"  href="#home"><span data-hover="HOME">HOME</span></a></li> 
+							<li>/</li>
+							<li><a class="scroll" href="#service"><span data-hover="ABOUT">ABOUT</span></a></li>
+							<li>/</li>
+							<li><a class="scroll" href="#author"><span data-hover="CURRENT WORK">CURRENT WORK</span></a></li> 
+							<li>/</li>
+							<li><a class="scroll" href="#portfolio"><span data-hover="PUBLICATIONS">PUBLICATIONS</span></a></li> 
+							<li>/</li>
+							<li><a class="scroll" href="#teamwork"><span data-hover="TEAMWORK">TEAMWORK</span></a></li> 
+							<li>/</li>
+							<li><a class="scroll" href="#contact"><span data-hover="CONTACT">CONTACT</span></a></li>
+					 </nav>
+				  </ul>			 	 
+			  </div>	
+				<!-- script-for-menu -->
+			 <script>
+				$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+				});
+			 </script>
+			 <!-- script-for-menu -->
+			 <div class="clearfix"></div>			
+		 </div>	 
+		 <div class="banner-info">	
+			<h1>SYNC PROJECT</h1>
+			<h3>A Synergistic Network Policy Management Project </h3>
+			<h3>  for Cloud Data Centres</h3>
+			<a class="downarrow scroll" href="#service"><span> </span></a>
+		 </div>
+	 </div>
+</div>
+<!---->
+<div id="service" class="service">
+	 <div class="container">
+		 <div class="service-head">
+		 <h3>ABOUT</h3>
+		 <h4>WHAT THE SYNC PROJECT DOES?</h4>
+		 </div>
+		 <div class="service-grids">
+			 <div class="col-md-4 service-grid">
+				 <img src="images/pic1.png" alt=""/>
+				 <h3>VISION</h3>
+
+				 <ul>
+				 	<li><h4>SYNC leverage the synergy amongst policy rules, applications and the underlying temporal network state for achieving network-wide performance optimisation</h4> </li>
+
+				 	<li><h4>SYNC takes in high-level network policy expressions and implement them in network function boxes at different network locations, be they the middleboxes, network switches, or end hosts, using a minimum set of network-wide consistent policy rules</h4></li>
+				</ul>
 
 
-    {% for page in site.posts reversed %}
-      {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
-
-      <div id="{{id}}" class="section p-{{id}}">
-        {% if page.icon %}
-       
-        <div class="subtlecircle sectiondivider imaged">
-          <img src="{{page.icon}}" alt="section icon" />
-          <h5 class="icon-title">{{ page.title }}</h5>
-        </div>
-        
-        {% elsif page.fa-icon %}
-       
-        <div class="subtlecircle sectiondivider faicon">
-          <span class="fa-stack">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
-          </span>
-          <h5 class="icon-title">{{ page.title }}</h5>
-        </div>
-      
-        {% endif %}
-       
-        <div class="container {{ page.style }}">
-
-          {% if page.title == "Team" %}
-
-            
-          {% else %}
-            {{ page.content }}
-
-          {% endif %}
-        </div>
-      </div>
-    {% endfor %}
 
 
-{% include footer.html %}
-{% include analytics.html %}
+			 </div>
+			 <div class="col-md-4 service-grid">
+				 <img src="images/pic2.png" alt=""/>
+				 <h3>INOVATION</h3>
+				 
 
+				 <ul>
+				 	<li><h4>SYNC exploits the underlying network state to arrange application virtual machines so that the network-wide impact of pairwise traffic patterns is minimised while still adhering strictly to network policies </h4></li>
+
+				 	<li><h4>SYNC will continuously optimise both application and network performance by dynamically reallocating both applications and policy rules according to temporal network load amongst applications</h4></li>
+				</ul>
+
+
+
+			 </div>
+			 <div class="col-md-4 service-grid">
+				 <img src="images/pic3.png" alt=""/>
+				 <h3>CHALLENGES</h3>
+				 
+
+				<ul>
+					<li><h4>Independent tenants constantly impose contradicting networking objectives onto physical networks</h4></li>
+					<li><h4>Dynamic virtual machine (VM) consolidation means both flow state and the mapping state of IPs must be updated across the network</h4></li>
+					<li><h4>Rapid change of the application life-cycle means frequent change to governing policies as well as network-wide temporal traffic load</h4></li>
+
+				</ul>
+
+
+
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>		 
+	 </div>
+</div>
+<!---->
+<div id="author" class="author">
+	 <div class="container">
+		 <h3>Current work involves <span>the applicability of the SYNC project </span> <span> for Mobile Edge Computing </span></h3>
+
+	 </div>
+</div>
+<!---->
+<script src="js/jquery.min.js"> </script>
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider2").responsiveSlides({
+        auto: true,
+        pager: true,
+        speed: 300,
+        namespace: "callbacks",
+      });
+    });
+  </script>
+ <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<div id="portfolio" class="portfolio">
+	 <div class="container">
+	 	<div class="portfolio-head">
+			<h3>PUBLICATIONS</h3>
+		       <h2><strong>Papers</strong></h2>
+
+			<ul>
+			  <li>L. Cui, R. Cziva, F. P. Tso and D. P. Pezaros, <a href="https://doi.org/10.1109/INFOCOM.2016.7524354"><strong>Synergistic policy and virtual machine consolidation in cloud data centers</strong></a>, in the <em>35th Annual IEEE International Conference on Computer Communications (INFOCOM)</em>, San Francisco, CA, 2016, pp. 1-9.</li>
+			  <li>L. Cui, F. P. Tso, D. P. Pezaros and W. Jia, <a href="https://doi.org/10.1109/UCC.2015.30"><strong>PLAN: A Policy-Aware VM Management Scheme for Cloud Data Centres</strong></a>, in the <em>IEEE/ACM 8th International Conference on Utility and Cloud Computing (UCC)</em>, Limassol, 2015, pp. 142-151.</li>
+			  <li>L. Cui and F. P. Tso, <a href="https://doi.org/10.1109/CloudNet.2015.7335298"><strong>Joint virtual machine and network policy consolidation in cloud data centers</strong></a>, in the <em>IEEE 4th International Conference on Cloud Networking (CloudNet)</em>, Niagara Falls, ON, 2015, pp. 153-158.</li>
+			  <li>L. Cui, F. P. Tso, D. P. Pezaros, W. Jia and W. Zhao, <a href="https://doi.org/10.1109/ICDCS.2015.81"><strong>Policy-Aware Virtual Machine Management in Data Center Networks</strong></a>, in the <em>IEEE 35th International Conference on Distributed Computing Systems</em>, Columbus, OH, 2015, pp. 730-731.</li>
+			</ul>
+
+			<h2><strong>Journals</strong></h2>
+
+			<ul>
+			  <li><h4>L. Cui, F. P. Tso, D. P. Pezaros, W. Jia and W. Zhao, <a href="https://doi.org/10.1109/TPDS.2016.2604811"><strong>PLAN: Joint Policy- and Network-Aware VM Management for Cloud Data Centers</strong></a> in <em>IEEE Transactions on Parallel and Distributed Systems</em>, vol. 28, no. 4, pp. 1163-1175, April 1 2017 </h4></li>
+			</ul>
+		  <!-- <div class="slider">
+				<ul class="rslides" id="slider2">
+				  <li>
+					 <div class="works main">						  
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
+								<img src="images/p7.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p1.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
+								<img src="images/p1.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p2.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+							    <img src="images/p2.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p3.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p3.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p4.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p4.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p5.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p5.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p6.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p6.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p7.jpg" alt="">
+						  </div>
+						 <div class="clearfix"></div>
+					  </div>				
+				  </li>
+				 <li>
+					 <div class="works main">						  
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p3.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
+								<img src="images/p3.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
+								<img src="images/p7.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p6.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+							    <img src="images/p6.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p4.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p4.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p5.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p5.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p1.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p1.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p2.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p2.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p7.jpg" alt="">
+						  </div>
+						 <div class="clearfix"></div>
+					  </div>				
+				  </li>
+				 <li>
+					 <div class="works main">						  
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
+								<img src="images/p7.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p4.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span><span class="rollover2"> </span></a> </p></div>     
+								<img src="images/p4.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p5.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+							    <img src="images/p5.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p3.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p3.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p1.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p1.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p7.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p7.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p6.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p6.jpg" alt="">
+						  </div>
+						  <div class="gallery-box">
+								<div id="nivo-lightbox-demo"> <p> <a href="images/p2.jpg" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">  <span class="rollover1"> </span></a> </p></div>     
+								<img src="images/p2.jpg" alt="">
+						  </div>
+						 <div class="clearfix"></div>
+					  </div>				
+				  </li>
+				</ul>
+				   <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+				<script type="text/javascript">
+				$(document).ready(function(){
+				    $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });
+				});
+				</script>
+		  </div> -->
+		</div>
+	</div>
+
+  </div>
+</div>
+<!---->
+<div id="teamwork" class="teamwork">
+	 <div class="container">
+		 <div class="team-head">
+		 <h3>TEAMWORK</h3>
+		 <h4>SYNC PROJECT RESEARCH TEAM</h4>
+		 </div>
+		 <div class="clients">
+			 <div class="course_demo1">
+		          <ul id="flexiselDemo1">	
+					 <li>
+						<div class="client">
+							<img src="images/per1.png"  class="img-responsive img-circle" alt="" />
+							<h3>Dr Posco Tso</h3>
+							<h4>LECTURE</h4>
+						</div>
+					 </li>
+					 <li>
+					    <div class="client">
+							<img src="images/per2.png" alt="" />
+							<h3>M.Baghago</h3>
+							<h4>UI/UX DESIGNER</h4>
+						</div>
+					  </li>	
+					  <!--
+					 <li>
+					    <div class="client">
+							<img src="images/per4.png" alt="" />
+							<h3>Ahmed Ali</h3>
+							<h4>SENIOR UI DESIGNER</h4>
+						</div>
+					 </li>	
+					 <li>
+					    <div class="client">
+							<img src="images/per3.png" alt="" />
+							<h3>A.Eliminshawy</h3>
+							<h4>GRAPHIC DESIGNER</h4>
+						</div>
+					 </li>	
+					 <li>
+						<div class="client">
+							<img src="images/per2.png" alt="" />
+							<h3>A.Eliminshawy</h3>
+							<h4>GRAPHIC DESIGNER</h4>
+						</div>
+					 </li>	
+					 <li>
+						<div class="client">
+							<img src="images/per3.png" alt="" />
+							<h3>M.Baghago</h3>
+							<h4>UI/UX DESIGNER</h4>
+						</div>
+					 </li>
+					 <li>
+						<div class="client">
+							<img src="images/per4.png" alt="" />
+							<h3>Ahmed Ali</h3>
+							<h4>SENIOR UI DESIGNER</h4>
+						</div>
+					 </li>
+					-->
+				 </ul>
+			 </div>
+			 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+				<script type="text/javascript">
+			 $(window).load(function() {
+				$("#flexiselDemo1").flexisel({
+					visibleItems: 2,
+					animationSpeed: 1000,
+					autoPlay: false,
+					autoPlaySpeed: 3000,    		
+					pauseOnHover: true,
+					enableResponsiveBreakpoints: true,
+			    	responsiveBreakpoints: { 
+			    		portrait: { 
+			    			changePoint:480,
+			    			visibleItems: 1
+			    		}, 
+			    		landscape: { 
+			    			changePoint:640,
+			    			visibleItems: 2
+			    		},
+			    		tablet: { 
+			    			changePoint:768,
+			    			visibleItems: 3
+			    		}
+			    	}
+			    });
+			    
+			 });
+			  </script>
+			 <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		 </div>
+	 </div>
+</div>
+<!---contact-->
+<div id="contact" class="contact">
+	 <div class="container">
+		 <h3>CONTACT</h3>
+		 <h4>WE'RE ALWAYS HERE TO HELP YOU</h4>
+		 <div class="contact-form">
+			 <form>
+				 <div class="col-md-6 contact-left">
+					  <input type="text" placeholder="Name" required/>
+					  <input type="text" placeholder="E-mail" required/>
+					  <input type="text" placeholder="Phone" required/>
+				  </div>
+				  <div class="col-md-6 contact-right">
+					 <textarea placeholder="Message"></textarea>
+					 <input type="submit" value="SEND"/>
+				 </div>
+				 <div class="clearfix"></div>
+			 </form>
+	     </div>
+	 </div>
+</div>
+<!-- Map Section -->
+<div id="map"></div>
+<!---fotter-->
+<div class="fotter">
+	 <p>Copyrights &copy; 2015 Jalil All rights reserved | Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+</div>
+<!---->
+
+
+<!--
+
+<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script> -->
+
+ <script>
+      function initMap() {
+
+
+        var loghborough = {lat: 52.7666143, lng: -1.2298423};
+        var mapOptions = {
+        // How zoomed in you want the map to start at (always required)
+        zoom: 15,
+
+        // The latitude and longitude to center the map (always required)
+        center: new google.maps.LatLng(52.7666143, -1.2298423), // New York
+
+        // Disables the default Google Maps UI components
+        disableDefaultUI: false,
+        scrollwheel: true,
+        draggable: true,
+
+        // How you would like to style the map. 
+        // This is where you would paste any style found on Snazzy Maps.
+        styles: [{
+	            "featureType": "water",
+	            "elementType": "geometry",
+	            "stylers": [{
+	                "color": "#000000"
+	            }, {
+	                "lightness": 17
+	            }]
+	        }, {
+	            "featureType": "landscape",
+	            "elementType": "geometry",
+	            "stylers": [{
+	                "color": "#000000"
+	            }, {
+	                "lightness": 20
+	            }]
+	        }, {
+	            "featureType": "road.highway",
+	            "elementType": "geometry.fill",
+	            "stylers": [{
+	                "color": "#000000"
+	            }, {
+	                "lightness": 17
+	            }]
+	        }, {
+	            "featureType": "road.highway",
+	            "elementType": "geometry.stroke",
+	            "stylers": [{
+	                "color": "#000000"
+	            }, {
+	                "lightness": 29
+	            }, {
+	                "weight": 0.2
+	            }]
+	        }, {
+	            "featureType": "road.arterial",
+	            "elementType": "geometry",
+	            "stylers": [{
+	                "color": "#000000"
+	            }, {
+	                "lightness": 18
+	            }]
+	        }, {
+	            "featureType": "road.local",
+	            "elementType": "geometry",
+	            "stylers": [{
+	                "color": "#000000"
+	            }, {
+	                "lightness": 16
+	            }]
+	        }, {
+	            "featureType": "poi",
+	            "elementType": "geometry",
+	            "stylers": [{
+	                "color": "#000000"
+	            }, {
+	                "lightness": 21
+	            }]
+	        }, {
+	            "elementType": "labels.text.stroke",
+	            "stylers": [{
+	                "visibility": "on"
+	            }, {
+	                "color": "#000000"
+	            }, {
+	                "lightness": 16
+	            }]
+	        }, {
+	            "elementType": "labels.text.fill",
+	            "stylers": [{
+	                "saturation": 36
+	            }, {
+	                "color": "#000000"
+	            }, {
+	                "lightness": 40
+	            }]
+	        }, {
+	            "elementType": "labels.icon",
+	            "stylers": [{
+	                "visibility": "on"
+	            }]
+	        }, {
+	            "featureType": "transit",
+	            "elementType": "geometry",
+	            "stylers": [{
+	                "color": "#000000"
+	            }, {
+	                "lightness": 19
+	            }]
+	        }, {
+	            "featureType": "administrative",
+	            "elementType": "geometry.fill",
+	            "stylers": [{
+	                "color": "#000000"
+	            }, {
+	                "lightness": 20
+	            }]
+	        }, {
+	            "featureType": "administrative",
+	            "elementType": "geometry.stroke",
+	            "stylers": [{
+	                "color": "#000000"
+	            }, {
+	                "lightness": 17
+	            }, {
+	                "weight": 1.2
+	            }]
+	        }]
+    	};
+    	
+        var contentString = '<div class="mapContent">'+
+            '<p><strong>Department of Computer Science, Loughborough University, LE11 3TU, UK<strong></p>'+
+            '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+        	content: contentString
+        });
+
+    	// Get the HTML DOM element that will contain your map 
+    	// We are using a div with id="map" seen below in the <body>
+    	var mapElement = document.getElementById('map');
+    	
+    	var image = 'images/map-marker.png';
+        var map = new google.maps.Map(mapElement, mapOptions);
+		var marker = new google.maps.Marker({
+		    position: loghborough,
+			icon:image
+		});
+
+		// To add the marker to the map, call setMap();
+		marker.setMap(map);
+		marker.addListener('click', function() {
+			infowindow.open(map, marker);
+        });
+		
+		google.maps.event.addListener(marker, 'click', function() {
+			infowindow.open(map,marker);
+		});
+
+		infowindow.open(map,marker);
+	}
+    </script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-wh0Q7Vr7H-EHzb0NYkQAPLJHyzCQj3s&callback=initMap">
+</script>
 </body>
-{% include js.html %}
 </html>
