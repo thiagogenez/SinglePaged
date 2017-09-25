@@ -262,31 +262,27 @@ text-justify: inter-word;
 font-weight: bold;
 }
 
-.publist ul {
 
-display: block;
-list-style-type: disc;
--webkit-margin-before: 1em;
--webkit-margin-after: 1em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
--webkit-padding-start: 40px;
-}
 
 .publist {
 color:#000;
 font-family: 'Source Code Pro';
-line-height: 1.1
+}
+
+
+.publist ul {
+display: block;
 }
 
 .publist li{
+font-family: 'Source Code Pro';
 color:#000;
 font-size:1.2em;
 margin-top:1em;
 word-spacing:1.3px;
-font-family: 'Source Code Pro';
 display: list-item;
-
+line-height: 1.1
+font-weight: 500
 }
 
 /* Blockquotes */
