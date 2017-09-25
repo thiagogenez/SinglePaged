@@ -26,6 +26,26 @@ ul{
 margin:0;
 padding:0;
 }
+
+
+
+
+pre {
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Code */
+code, kbd, tt, var, samp, pre {
+  font-family: monospace, serif;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  font-style: normal;
+}
+
+
 /*----*/
 .banner{
 background:#000000;
@@ -172,9 +192,11 @@ font-size:2.1em;
 color:#000;
 font-size:1.2em;
 margin-top:1em;
-word-spacing:1.5px;
+word-spacing:1.3px;
 font-family: 'Source Code Pro';
+text-align: center;
 }
+
 
 /*--author--*/
 .author{
@@ -223,6 +245,64 @@ letter-spacing:1.3px;
 font-weight:600;
 }
 
+
+.publist h4{
+display: block;
+color:#000;
+font-size:1.6em;
+margin-top:1em;
+word-spacing:1.5px;
+font-family: 'Source Code Pro';
+text-align: left;
+text-justify: inter-word;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+.publist ul {
+
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+.publist li{
+color:#000;
+font-size:1.1em;
+margin-top:1em;
+word-spacing:1.3px;
+font-family: 'Source Code Pro';
+text-align: left;
+    text-justify: inter-word;
+    display: list-item;
+text-align: -webkit-match-parent;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 2px solid #ebebeb;
+  font-family: "Lora", serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+}
+blockquote cite {
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px 0 0;
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 14px;
+}
 
 /*--- slider-css --*/
 .slider{
@@ -442,7 +522,7 @@ font-family: 'Source Code Pro';
 /*** Navigation ***/
 .nbs-flexisel-nav-left,
 .nbs-flexisel-nav-right {
-  width:44px;
+  width:30px;
   height:60px;
   position: absolute;
   cursor: pointer;
@@ -451,26 +531,30 @@ font-family: 'Source Code Pro';
 .nbs-flexisel-nav-left {
   	left: -7em;
 	background: url(../images/left.png) 0px 0px no-repeat;
+	background-size:50%;
+
 }
 .nbs-flexisel-nav-right {
 	right: -7em;
 	background: url(../images/right.png) 0px 0px no-repeat;
+	background-size:50%;
 }
 .client h3{
 color: #fff;
 font-weight: 600;
-font-size: 2.1em;
+font-size: 2.0em;
 margin-top: 1em;
 font-family: Century Gothic;
 }
 .client h4 {
 color: #fff;
-font-size: 1.3em;
+font-size: 1.2em;
 margin-top: 0.5em;
 word-spacing: 1.5px;
 font-family: 'Source Code Pro';
 font-weight:400;
 }
+
 /*--contact--*/
 .contact{
 padding:4.0em 0;
@@ -542,11 +626,11 @@ color:#000;
 .fotter{
 background:#000;
 text-align:center;
-padding:1em 0;
+padding:.6em 0;
 }
 .fotter p{
 color:#fff;
-font-size:1.0em;
+font-size:.9em;
 font-family: 'Source Code Pro';
 }
 .fotter p a{
@@ -582,17 +666,21 @@ text-decoration:underline;
 @media(max-width:1366px){
 .nbs-flexisel-nav-left {
 left: -5em;
+background-size:50%;
 }
 .nbs-flexisel-nav-right {
 right: -5em;
+background-size:50%;
 }
 }
 @media(max-width:1280px){
 .nbs-flexisel-nav-left {
   	left: -2.5em;
+  	background-size:50%;
 }
 .nbs-flexisel-nav-right {
 	right: -3em;
+	background-size:50%;
 }
 }
 @media(max-width:1024px){
@@ -642,10 +730,12 @@ width: 204px;
 .nbs-flexisel-nav-left {
 left: -1.2em;
 top: 57.5px!important;
+background-size:50%;
 }
 .nbs-flexisel-nav-right {
 right: -1.5em;
 top: 62.5px!important;
+background-size:50%;
 }
 .contact form input[type="submit"] {
 font-size: 1.25em;
@@ -716,11 +806,11 @@ margin: 0px 15px 23px 11px;
 }
 .nbs-flexisel-nav-left {
 left: -0.2em;
-background-size: 100%;
+background-size:50%;
 width: 30px;
 }
 .nbs-flexisel-nav-right{
-background-size:100%;
+background-size:50%;
 width:30px;
 right:1px;
 }
