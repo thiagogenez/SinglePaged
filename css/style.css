@@ -1150,14 +1150,14 @@ font-size: 1em;
 /*map*/
 #map {
 
-    height: 500px;
+    height: 400px;
     margin-top: 0px;
 }
 
 @media(min-width:767px) {
 
     #map {
-        height: 500px;
+        height: 400px;
         margin-top: 0px;
     }
 }
