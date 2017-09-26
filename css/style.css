@@ -46,9 +46,10 @@ code, kbd, tt, var, samp, pre {
 }
 
 
+
 /*----*/
 .banner{
-background:#000000;
+background:#eee;
 }
 .logo{
 float:left;
@@ -62,13 +63,13 @@ margin-top: 1.5em;
 .top-menu ul li {
 display: inline-block;
 padding:10px;
-color: #fff;
+color: #000;
 font-weight: 900;
 vertical-align: top;
 }
 .top-menu ul li a {
 text-decoration: none;
-color: #fff;
+color: #000;
 font-weight:400;
 text-transform: uppercase;
 font-family: 'Source Code Pro';
@@ -126,7 +127,7 @@ text-align:center;
 margin:10% 0;
 }
 .banner-info h1{
-color:#fff;
+color:#000;
 font-size:5em;
 font-family:Century Gothic;
 font-weight:600;
@@ -134,12 +135,14 @@ letter-spacing:1.5px;
 margin-bottom:10px;
 }
 .banner-info h3{
-color:#fff;
+color:#000;
 font-size:1.2em;
 letter-spacing:2px;
 font-weight:400;
 font-family: 'Source Code Pro';
 }
+
+
 a.downarrow {
 margin-top: 12.5em;
 display: inline-block;
@@ -150,6 +153,26 @@ width: 71px;
 background: url(../images/dwn.png);
 display: inline-block;
 }
+
+.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  line-height: 38px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 100% !important;
+  background: transparent; 
+  display: inline-block;
+  margin-top: 6.0em;
+}
+.btn-circle:focus, .btn-circle:hover {
+    color: black;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1); 
+}
+
+
 /*--SERVICE--*/
 .service{
 background:#fff;
@@ -201,11 +224,11 @@ text-align: center;
 /*--author--*/
 .author{
 text-align:center;
-background:#000;
+background:#eee;
 padding:7em 0;
 }
 .author h3{
-color:#fff;
+color:#000;
 font-size:2em;
 letter-spacing:1px;
 font-weight:400;
@@ -217,7 +240,7 @@ display:block;
 margin-top:15px;
 }
 .author h4{
-color:#fff;
+color:#000;
 font-weight:600;
 font-size:2.1em;
 margin-top:2em;
@@ -447,11 +470,11 @@ width: 250px;
 
 /*--teamwork--*/
 .teamwork{
-background:#000;
-padding:5em 0;
+background:#eee;
+padding:6em 0;
 }
 .team-head h3{
-color:#fff;
+color:#000;
 font-size:2.7em;
 font-family:Century Gothic;
 letter-spacing:1.3px;
@@ -460,7 +483,7 @@ text-align:center;
 margin-bottom:10px;
 }
 .team-head h4{
-color: #fff;
+color: #000;
 font-size: 1.1em;
 word-spacing: 2px;
 letter-spacing: 1.2px;
@@ -536,24 +559,24 @@ font-family: 'Source Code Pro';
 }
 .nbs-flexisel-nav-left {
   	left: -7em;
-	background: url(../images/left.png) 0px 0px no-repeat;
+	/*background: url(../images/left.png) 0px 0px no-repeat;*/
 	background-size:50%;
 
 }
 .nbs-flexisel-nav-right {
 	right: -7em;
-	background: url(../images/right.png) 0px 0px no-repeat;
+	/*background: url(../images/right.png) 0px 0px no-repeat;*/
 	background-size:50%;
 }
 .client h3{
-color: #fff;
+color: #000;
 font-weight: 600;
 font-size: 2.0em;
 margin-top: 1em;
 font-family: Century Gothic;
 }
 .client h4 {
-color: #fff;
+color: #000;
 font-size: 1.2em;
 margin-top: 0.5em;
 word-spacing: 1.5px;
@@ -630,17 +653,17 @@ color:#000;
 }
 /*----*/
 .fotter{
-background:#000;
+background:#fff;
 text-align:center;
 padding:.6em 0;
 }
 .fotter p{
-color:#fff;
-font-size:.9em;
+color:#000;
+font-size:.8em;
 font-family: 'Source Code Pro';
 }
 .fotter p a{
-color:#fff;
+color:#000;
 }
 .fotter p a:hover{
 text-decoration:underline;
@@ -712,9 +735,23 @@ margin-top: 9em;
 a.downarrow span {
 height: 29px;
 width: 43px;
-background: url(../images/dwn.png) no-repeat;
 background-size: 100%;
 }
+
+.btn-circle{
+  font-size: 16px;
+  width: 48px;
+  height: 48px;
+  line-height: 36px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 100% !important;
+  background: transparent; 
+  display: inline-block;
+  margin-top: 5em;
+}
+
+
 .service-grid h4 {
 font-size: 1.1em;
 }
@@ -860,7 +897,7 @@ border: 5px solid #000;
 margin-top: 0.7em;
 }
 .fotter p {
-font-size: 1.1em;
+font-size: .8em;
 }
 .fotter {
 padding: 1.5em 0;
@@ -1142,7 +1179,7 @@ font-size: 1em;
 height: 128px;
 }
 .fotter p {
-font-size: 1em;
+font-size: .8em;
 }
 }
 

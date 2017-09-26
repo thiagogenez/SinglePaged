@@ -102,7 +102,7 @@
 	   			 	$(".nbs-flexisel-item > img").css("max-height", baseHeight);
    			 	}
  
-   			 	$("<div class='nbs-flexisel-nav-left'></div><div class='nbs-flexisel-nav-right'></div>").insertAfter(object);
+   			 	$("<div class='nbs-flexisel-nav-left'> <i class='fa fa-lg fa-angle-double-down fa-rotate-90 animated'></i></div><div class='nbs-flexisel-nav-right'><i class='fa fa-lg fa-angle-double-down fa-rotate-270 animated'></i></div>").insertAfter(object);
    			 	var cloneContent = object.children().clone();
    			 	object.append(cloneContent);
 			},
