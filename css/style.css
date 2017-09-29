@@ -176,7 +176,7 @@ display: inline-block;
 /*--SERVICE--*/
 .service{
 background:#fff;
-padding:7em 0;
+padding:5.5em 0;
 }
 .service-head{
 text-align:center;
@@ -220,6 +220,18 @@ font-family: 'Source Code Pro';
 text-align: center;
 }
 
+.service-bottom{
+font-family: 'Source Code Pro';
+}
+
+.service-bottom p{
+color:#000;
+font-size:.8em;
+margin-top:1em;
+word-spacing:1.3px;
+font-family: 'Source Code Pro';
+text-align: center;
+}
 
 /*--author--*/
 .author{
